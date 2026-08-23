@@ -4,7 +4,7 @@ An interactive **Bike Sales Analysis Dashboard** built using **Tableau** to anal
 
 ## 📊 Dashboard Preview
 
-![Bike Sales Dashboard](screenshots/bike-sales-dashboard.png)
+![Bike Sales Dashboard](bike-sales-dashboard.png)
 
 ## 🎯 Project Overview
 
