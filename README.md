@@ -51,10 +51,8 @@ The project focuses on:
 
 ### 💰 KPI Cards
 
-The dashboard provides key performance indicators including:
-
-- **Total Revenue**
-- **Total Profit**
+- Total Revenue
+- Total Profit
 
 ### 📈 Revenue Trend
 
@@ -66,10 +64,7 @@ Identifies the best-selling products based on quantity sold.
 
 ### 👥 Product Category Sales by Gender
 
-Compares product category performance across:
-
-- Male customers
-- Female customers
+Compares product category performance across male and female customers.
 
 ### 🎯 Sales by Age Group & Product Subcategory
 
@@ -77,7 +72,7 @@ Analyzes sales distribution across different customer age groups and product sub
 
 ### 🌍 Sales by Country
 
-Provides a geographic analysis of sales performance and helps identify countries contributing significantly to overall sales.
+Provides a geographic analysis of sales performance across different countries.
 
 ### 📅 Year Filter
 
@@ -105,8 +100,6 @@ Allows users to select one or multiple countries for focused analysis.
 ---
 
 ## 🔍 Business Questions Answered
-
-The dashboard can be used to answer questions such as:
 
 - Which products have the highest sales quantity?
 - Which product categories perform best?
@@ -140,7 +133,7 @@ The dashboard enables users to identify:
 
 - **Tableau** – Dashboard development and interactive data visualization
 - **Tableau Workbook (.twb)** – Tableau project file
-- **Data Visualization** – Charts, maps, KPI cards, and filters
+- **Data Visualization** – Charts, maps, KPI cards, and interactive filters
 - **Business Intelligence** – Data-driven business analysis
 
 ---
@@ -164,8 +157,6 @@ The dashboard enables users to identify:
 
 ## 🎨 Dashboard Components
 
-The dashboard combines multiple visualization techniques:
-
 - 📊 Bar Charts
 - 📈 Trend Charts
 - 🗺️ Geographic Maps
@@ -173,9 +164,37 @@ The dashboard combines multiple visualization techniques:
 - 🔘 Interactive Filters
 - 📋 Comparative Visualizations
 
-These visualizations make complex sales data easier to understand and explore.
-
 ---
+
+
+## 🚀 How to Open the Project
+
+### Prerequisites
+
+- Tableau Desktop
+- Git (optional)
+
+### Steps
+
+1. Clone or download this repository.
+
+```bash
+git clone https://github.com/himanshi482/Bike-Sales-Tableau.git
+
+----
+## 🔗 Project Links
+
+### 💻 GitHub Repository
+
+[View GitHub Repository](https://github.com/himanshi482/Bike-Sales-Tableau)
+
+### 📊 Tableau Public Dashboard
+
+[🚀 View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/himanshi.bawne/viz/Bikesales_17834403740190/Bikesalesdashboard)
+
+> Explore the interactive dashboard on Tableau Public to analyze bike sales, revenue, profit, products, customer demographics, and country-wise performance.
+
+-------
 
 ## 📂 Repository Structure
 
