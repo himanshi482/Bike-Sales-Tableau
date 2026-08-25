@@ -1,88 +1,190 @@
-# 🚴 Bike Sales Analysis – Tableau Dashboard
+# 🚴 Bike Sales Analysis Dashboard – Tableau
 
-An interactive **Bike Sales Analysis Dashboard** built using **Tableau** to analyze sales, profit, products, customer age groups, gender, and country-wise performance.
+An interactive **Bike Sales Analysis Dashboard** built using **Tableau** to analyze sales, revenue, profit, products, customer demographics, and country-wise performance.
+
+The dashboard transforms bike sales data into meaningful visual insights using **KPI cards, charts, maps, filters, and interactive visualizations**.
+
+---
 
 ## 📊 Dashboard Preview
 
 ![Bike Sales Dashboard](bike-sales-dashboard.png)
 
+---
+
 ## 🎯 Project Overview
 
-The **Bike Sales Analysis** project provides an interactive view of bike sales data and helps identify important business insights through visual analytics.
+The **Bike Sales Analysis Dashboard** provides an interactive view of bike sales data and helps identify important business insights through data visualization.
 
-The dashboard includes key performance indicators, product analysis, customer segmentation, country-wise sales, and interactive filters for exploring the data.
+The dashboard allows users to explore sales performance across different:
+
+- Products
+- Product categories
+- Customer age groups
+- Customer gender
+- Countries
+- Years
+- Revenue and profit metrics
+
+Interactive filters make it easy to analyze specific years and countries and understand changes in business performance.
+
+---
+
+## 🎯 Project Objective
+
+The main objective of this project is to transform raw bike sales data into an **interactive and easy-to-understand Tableau dashboard**.
+
+The project focuses on:
+
+- Analyzing sales and revenue performance
+- Understanding profit trends
+- Identifying top-performing products
+- Analyzing customer demographics
+- Comparing performance across countries
+- Understanding category-wise performance
+- Identifying sales trends over time
+- Supporting data-driven business decisions
+
+---
 
 ## ✨ Dashboard Features
 
-- 💰 **Profit Card** – Displays total profit.
-- 💵 **Revenue Card** – Displays total revenue.
-- 📈 **Revenue Trend** – Shows revenue variation over time.
-- 🏆 **Top 10 Products Sold by Quantity** – Identifies the best-selling products.
-- 👥 **Product Category Sales by Gender** – Compares sales/profit contribution between female and male customers.
-- 🎯 **Sales by Age Group and Product Subcategory** – Visualizes sales distribution across customer age groups and product subcategories.
-- 🌍 **Sales by Country** – Provides a geographic view of sales performance.
-- 📅 **Year Filter** – Allows analysis for different years.
-- 🌎 **Country Filter** – Allows users to select one or multiple countries.
+### 💰 KPI Cards
+
+The dashboard provides key performance indicators including:
+
+- **Total Revenue**
+- **Total Profit**
+
+### 📈 Revenue Trend
+
+Visualizes revenue changes over time and helps identify sales trends and performance fluctuations.
+
+### 🏆 Top 10 Products by Quantity Sold
+
+Identifies the best-selling products based on quantity sold.
+
+### 👥 Product Category Sales by Gender
+
+Compares product category performance across:
+
+- Male customers
+- Female customers
+
+### 🎯 Sales by Age Group & Product Subcategory
+
+Analyzes sales distribution across different customer age groups and product subcategories.
+
+### 🌍 Sales by Country
+
+Provides a geographic analysis of sales performance and helps identify countries contributing significantly to overall sales.
+
+### 📅 Year Filter
+
+Allows users to select different years and analyze performance for a specific time period.
+
+### 🌎 Country Filter
+
+Allows users to select one or multiple countries for focused analysis.
+
+---
 
 ## 📌 Key Dashboard Metrics
 
-The dashboard provides an overview of:
+| Metric | Analysis |
+|---|---|
+| 💰 Revenue | Overall revenue performance |
+| 💵 Profit | Overall profitability |
+| 🏆 Products | Top-performing products |
+| 📦 Categories | Category-wise performance |
+| 👥 Gender | Male vs Female performance |
+| 🎯 Age Groups | Customer age-wise sales |
+| 🌍 Countries | Country-wise sales |
+| 📅 Years | Year-wise performance |
 
-- Total Revenue
-- Total Profit
-- Category-wise Sales
-- Product-wise Sales
-- Gender-wise Performance
-- Age Group-wise Sales
-- Country-wise Sales
-- Year-wise Performance
+---
+
+## 🔍 Business Questions Answered
+
+The dashboard can be used to answer questions such as:
+
+- Which products have the highest sales quantity?
+- Which product categories perform best?
+- Which products contribute significantly to revenue?
+- How do sales differ between male and female customers?
+- Which age groups contribute most to sales?
+- Which countries have the highest sales performance?
+- How does revenue change over time?
+- Which product subcategories perform well among different age groups?
+- How does business performance vary across different years?
+
+---
+
+## 💡 Key Insights
+
+The dashboard enables users to identify:
+
+- High-performing products
+- Revenue and profit trends
+- Customer purchasing patterns
+- Differences between customer segments
+- Strong-performing countries
+- Product category performance
+- Changes in sales performance over time
+
+> **Note:** Specific numerical insights should be added only after verifying the actual Tableau dashboard data.
+
+---
 
 ## 🛠️ Tools & Technologies
 
-- **Tableau** – Dashboard development and data visualization
-- **Tableau Workbook (.twb)** – Project workbook
-- **Data Visualization** – Charts, maps, KPI cards, and interactive filters
+- **Tableau** – Dashboard development and interactive data visualization
+- **Tableau Workbook (.twb)** – Tableau project file
+- **Data Visualization** – Charts, maps, KPI cards, and filters
+- **Business Intelligence** – Data-driven business analysis
+
+---
+
+## 📚 Skills Demonstrated
+
+- Data Analysis
+- Data Visualization
+- Tableau
+- Business Intelligence
+- Dashboard Development
+- KPI Analysis
+- Trend Analysis
+- Customer Segmentation
+- Comparative Analysis
+- Interactive Dashboard Design
+- Data Storytelling
+- Business Insights
+
+---
+
+## 🎨 Dashboard Components
+
+The dashboard combines multiple visualization techniques:
+
+- 📊 Bar Charts
+- 📈 Trend Charts
+- 🗺️ Geographic Maps
+- 💳 KPI Cards
+- 🔘 Interactive Filters
+- 📋 Comparative Visualizations
+
+These visualizations make complex sales data easier to understand and explore.
+
+---
 
 ## 📂 Repository Structure
 
 ```text
 Bike-Sales-Tableau/
 │
-├── tableua.twb
 ├── screenshots/
 │   └── bike-sales-dashboard.png
+│
+├── tableua.twb
+│
 └── README.md
-```
-
-## 🚀 How to Open the Project
-
-1. Download or clone this repository.
-2. Install **Tableau Desktop**.
-3. Open the `tableua.twb` file in Tableau.
-4. Open the **Bike sales dashboard** sheet.
-5. Use the year and country filters to interact with the dashboard.
-
-## 🔍 Dashboard Insights
-
-The dashboard can be used to answer questions such as:
-
-- Which products have the highest sales quantity?
-- Which product categories generate the most revenue?
-- How do sales differ between male and female customers?
-- Which age groups contribute most to sales?
-- Which countries have the highest sales performance?
-- How does performance change from year to year?
-
-## 🎓 Project Objective
-
-The main objective of this project is to transform bike sales data into an interactive Tableau dashboard that makes business performance easier to understand and supports data-driven decision-making.
-
-## 👩‍💻 Author
-
-**Himanshi**
-
-GitHub: [@himanshi482](https://github.com/himanshi482)
-
-## 📄 License
-
-This project is created for **educational and portfolio purposes**.
