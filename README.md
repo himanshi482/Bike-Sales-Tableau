@@ -178,7 +178,6 @@ The dashboard enables users to identify:
 
 1. Clone or download this repository.
 
-```bash
 git clone https://github.com/himanshi482/Bike-Sales-Tableau.git
 
 ----
